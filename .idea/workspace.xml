@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1dc3209-7d1c-4c71-bba7-b69cc59fc8f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
           <entry key="gitignore" value="1" />
           <entry key="layout_file" value="1" />
           <entry key="md" value="1" />
-          <entry key="rb" value="45" />
+          <entry key="rb" value="47" />
           <entry key="scss" value="3" />
           <entry key="yml" value="1" />
         </counts>
@@ -61,7 +60,7 @@
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="RHTML" value="26" />
-          <entry key="Ruby" value="50" />
+          <entry key="Ruby" value="52" />
           <entry key="SCSS" value="3" />
           <entry key="YAML" value="1" />
         </counts>
@@ -71,7 +70,7 @@
           <entry key="Gemfile" value="2" />
           <entry key="erb" value="792" />
           <entry key="gitignore" value="1" />
-          <entry key="rb" value="3694" />
+          <entry key="rb" value="3705" />
           <entry key="scss" value="82" />
         </counts>
       </usages-collector>
@@ -79,7 +78,7 @@
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="792" />
-          <entry key="Ruby" value="3696" />
+          <entry key="Ruby" value="3707" />
           <entry key="SCSS" value="82" />
         </counts>
       </usages-collector>
@@ -87,29 +86,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="150">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+        <entry file="file://$PROJECT_DIR$/test/controllers/sessions_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -119,60 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="59" column="83" selection-start-line="59" selection-start-column="83" selection-end-line="59" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/puma.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -222,13 +158,14 @@
         <option value="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -340,10 +277,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="procfi&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/Procfile&#10;puma&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/config/puma.rb&#10;produ&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/config/environments/production.rb&#10;appli&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/layouts/application.html.erb&#10;user/new&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/users/new.html.erb&#10;users_helper&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/helpers/users_helper.rb&#10;user_cont&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/controllers/users_controller.rb&#10;sche&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/db/schema.rb&#10;custom.scss&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/assets/stylesheets/custom.scss&#10;gem&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/Gemfile&#10;application&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/layouts/application.html.erb&#10;user_test&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/test/models/user_test.rb&#10;layout&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/test/integration/site_layout_test.rb&#10;view/users/new&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/static_pages/home.html.erb&#10;test_&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/test/test_helper.rb&#10;head&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/layouts/_header.html.erb&#10;contact&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/static_pages/contact.html.erb&#10;StaticPagesController&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/test/controllers/static_pages_controller_test.rb&#10;staticpagecont&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/controllers/static_pages_controller.rb&#10;applicationcss&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/assets/stylesheets/application.css&#10;routes&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/config/routes.rb&#10;app/views/static_pages/home.html.erb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/static_pages/home.html.erb&#10;app/views/layouts/application.html.erb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/layouts/application.html.erb&#10;example_user.rb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/example_user.rb&#10;static_pages_controller_test&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/test/controllers/static_pages_controller_test.rb&#10;applicationhel&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/helpers/application_helper.rb&#10;applicationhtml&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/layouts/application.html.erb&#10;.gitig&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/.gitignore&#10;guard&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/Guardfile&#10;environment&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/config/environment.rb&#10;test_helper.rb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/test/test_helper.rb&#10;staticpage&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/controllers/static_pages_controller.rb&#10;abouthtml&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/static_pages/about.html.erb&#10;helphtml&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/static_pages/help.html.erb&#10;application.html.erb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/layouts/application.html.erb&#10;app/views/static_pages/about.html.erb &#9;null&#9;null&#10;application.rb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/controllers/application_controller.rb&#10;environment.rb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/config/environment.rb&#10;StaticPages&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/controllers/static_pages_controller.rb&#10;confi/rou&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/config/routes.rb&#10;applicont&#9;null&#9;null&#10;readme&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/README.md" />
+    <property name="SearchEverywhereHistoryKey" value="sessions_controller_test&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/test/controllers/sessions_controller_test.rb&#10;procfi&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/Procfile&#10;puma&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/config/puma.rb&#10;produ&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/config/environments/production.rb&#10;appli&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/layouts/application.html.erb&#10;user/new&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/users/new.html.erb&#10;users_helper&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/helpers/users_helper.rb&#10;user_cont&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/controllers/users_controller.rb&#10;sche&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/db/schema.rb&#10;custom.scss&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/assets/stylesheets/custom.scss&#10;gem&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/Gemfile&#10;application&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/layouts/application.html.erb&#10;user_test&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/test/models/user_test.rb&#10;layout&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/test/integration/site_layout_test.rb&#10;view/users/new&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/static_pages/home.html.erb&#10;test_&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/test/test_helper.rb&#10;head&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/layouts/_header.html.erb&#10;contact&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/static_pages/contact.html.erb&#10;StaticPagesController&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/test/controllers/static_pages_controller_test.rb&#10;staticpagecont&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/controllers/static_pages_controller.rb&#10;applicationcss&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/assets/stylesheets/application.css&#10;routes&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/config/routes.rb&#10;app/views/static_pages/home.html.erb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/static_pages/home.html.erb&#10;app/views/layouts/application.html.erb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/layouts/application.html.erb&#10;example_user.rb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/example_user.rb&#10;static_pages_controller_test&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/test/controllers/static_pages_controller_test.rb&#10;applicationhel&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/helpers/application_helper.rb&#10;applicationhtml&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/layouts/application.html.erb&#10;.gitig&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/.gitignore&#10;guard&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/Guardfile&#10;environment&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/config/environment.rb&#10;test_helper.rb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/test/test_helper.rb&#10;staticpage&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/controllers/static_pages_controller.rb&#10;abouthtml&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/static_pages/about.html.erb&#10;helphtml&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/static_pages/help.html.erb&#10;application.html.erb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/views/layouts/application.html.erb&#10;app/views/static_pages/about.html.erb &#9;null&#9;null&#10;application.rb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/controllers/application_controller.rb&#10;environment.rb&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/config/environment.rb&#10;StaticPages&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/app/controllers/static_pages_controller.rb&#10;confi/rou&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/config/routes.rb&#10;applicont&#9;null&#9;null&#10;readme&#9;FILE&#9;file:///Users/naohiro/Documents/RubyDev/first-app/workspace/sample_app2/README.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558240026824" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558279839921" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -380,12 +317,12 @@
       <workItem from="1542424030564" duration="547000" />
       <workItem from="1546232972344" duration="6513000" />
       <workItem from="1551369216174" duration="34033000" />
-      <workItem from="1557550213683" duration="15622000" />
+      <workItem from="1557550213683" duration="16973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70544000" />
+    <option name="totallyTimeSpent" value="71895000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,7 +352,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293124" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.52231604" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.6320869" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.52231604" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3293124" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -719,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -793,6 +723,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/sessions_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
